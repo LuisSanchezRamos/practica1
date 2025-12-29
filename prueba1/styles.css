@@ -95,6 +95,7 @@ a {
     width: 100%;
     max-width: 1000px;
     gap: 100px;
+    margin-bottom: 100px;
 }
 .column-hijo {
    width: 100%;
