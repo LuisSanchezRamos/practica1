@@ -88,16 +88,18 @@ a {
     font-size: 20px;
 }
 .column{
-    margin: 150px auto;
+    margin-top: 150px ;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     width: 100%;
     max-width: 1000px;
     gap: 100px;
 }
 .column-hijo {
    width: 100%;
-  margin-left: 10px;
+   /* max-width: 350px; */
+  /* margin-left: 20px; */
    
 }
 .column-titulo {
@@ -170,6 +172,7 @@ a {
   .column {
     grid-template-columns: repeat(1, 1fr);
     padding: 30px;
+    gap: 20px;
   }
   .buscador {
     height: 40px;
@@ -178,4 +181,17 @@ a {
   .icon-input {
     margin: 30px;
   }
+}
+@media (width <= 999px) {
+.column{
+    gap: 40px;
+    margin-bottom: 80px;
+    
+}
+.column-hijo {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    justify-content: center;
+}
 }
