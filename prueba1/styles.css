@@ -91,11 +91,12 @@ a {
     margin: 150px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     gap: 100px;
 }
 .column-hijo {
-   width: 440px;
+   width: 100%;
   margin-left: 10px;
    
 }
