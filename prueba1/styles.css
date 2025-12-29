@@ -171,4 +171,11 @@ a {
     grid-template-columns: repeat(1, 1fr);
     padding: 30px;
   }
+  .buscador {
+    height: 40px;
+    border-radius: 20px;
+  }
+  .icon-input {
+    margin: 30px;
+  }
 }
