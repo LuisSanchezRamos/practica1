@@ -151,8 +151,24 @@ a {
 
 
 @media (width <= 768px) {
-  .footer {
-    
+
+   .nav {
     flex-direction: column;
+    justify-content: center;
+   }
+   .llamado-accion {
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 60px 0;
+   }
+  .footer {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .column {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
   }
 }
