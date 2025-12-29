@@ -114,6 +114,7 @@ a {
 }
 
 .footer{
+    width: 100%;
     display: flex;
     gap: 80px;
     justify-content: space-around;
@@ -146,4 +147,12 @@ a {
 }
 .copy-texto {
     font-size: 22px;
+}
+
+
+@media (width <= 768px) {
+  .footer {
+    
+    flex-direction: column;
+  }
 }
