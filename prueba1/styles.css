@@ -192,8 +192,10 @@ a {
   }
   .btn {
     display: flex;
-
-    margin: 20px 0;
+    
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
     flex-direction: column;
   }
   .footer-copyright {
